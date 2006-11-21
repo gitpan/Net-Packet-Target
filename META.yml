@@ -1,12 +1,15 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Net-Packet-Target
-version:      1.00
-version_from: lib/Net/Packet/Target.pm
-installdirs:  site
-requires:
+--- #YAML:1.0
+name:                Net-Packet-Target
+version:             1.01
+abstract:            an object for all network related stuff
+license:             Artistic
+generated_by:        ExtUtils::MakeMaker version 6.31
+distribution_type:   module
+requires:     
     Class::Gomor:                  1.00
     Net::Packet:                   3.00
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.30
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - GomoR <perl@gomor.org>
